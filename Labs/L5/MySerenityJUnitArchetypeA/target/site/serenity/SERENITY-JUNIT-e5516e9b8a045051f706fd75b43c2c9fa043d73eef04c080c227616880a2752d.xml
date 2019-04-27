@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStoryDdt" skipped="0" tests="3" time="25.71" timestamp="2019-04-21T12:24:52.928173+03:00[Europe/Athens]"><testcase classname="MySerenityJUnitArchetypeG.features.search.SearchByKeywordStoryDdt" name="Search wiki by keyword test DDT"><failure message="&#10;Expected: a collection containing a string containing &quot;A�person�who has not�yet�reached�adulthood, whether�natural�(puberty),�cultural�(initiation), or�legal�(majority)&quot;&#10;     but: was &quot;A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)&#10;Go easy on him: he is but a child.&quot;, was &quot;(obsolete, specifically) a female child, a girl. quotations ▼&quot;, was &quot;&quot;, was &quot;(with possessive) One's son or daughter, or one's direct descendant of non-binary gender, regardless of age.&#10;My youngest child is forty-three.&quot;, was &quot;(cartomancy) The thirteenth Lenormand card.&quot;, was &quot;(figuratively) A figurative offspring, particularly:&#10;A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼&#10;The children of Israel.&#10;He is a child of his times.&#10;Anything derived from or caused by something. quotations ▼&#10;Poverty, disease, and despair are the children of war.&#10;(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼&#10;The child node then stores the actual data of the parent node.&quot;, was &quot;A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼&#10;The children of Israel.&#10;He is a child of his times.&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;Anything derived from or caused by something. quotations ▼&#10;Poverty, disease, and despair are the children of war.&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼&#10;The child node then stores the actual data of the parent node.&quot;, was &quot;&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "A�person�who has not�yet�reached�adulthood, whether�natural�(puberty),�cultural�(initiation), or�legal�(majority)"
+     but: was "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)
+Go easy on him: he is but a child.", was "(obsolete, specifically) a female child, a girl. quotations ▼", was "", was "(with possessive) One's son or daughter, or one's direct descendant of non-binary gender, regardless of age.
+My youngest child is forty-three.", was "(cartomancy) The thirteenth Lenormand card.", was "(figuratively) A figurative offspring, particularly:
+A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼
+The children of Israel.
+He is a child of his times.
+Anything derived from or caused by something. quotations ▼
+Poverty, disease, and despair are the children of war.
+(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼
+The child node then stores the actual data of the parent node.", was "A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼
+The children of Israel.
+He is a child of his times.", was "", was "", was "Anything derived from or caused by something. quotations ▼
+Poverty, disease, and despair are the children of war.", was "", was "", was "(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼
+The child node then stores the actual data of the parent node.", was ""</failure><system-err>
+Expected: a collection containing a string containing "A�person�who has not�yet�reached�adulthood, whether�natural�(puberty),�cultural�(initiation), or�legal�(majority)"
+     but: was "A person who has not yet reached adulthood, whether natural (puberty), cultural (initiation), or legal (majority)
+Go easy on him: he is but a child.", was "(obsolete, specifically) a female child, a girl. quotations ▼", was "", was "(with possessive) One's son or daughter, or one's direct descendant of non-binary gender, regardless of age.
+My youngest child is forty-three.", was "(cartomancy) The thirteenth Lenormand card.", was "(figuratively) A figurative offspring, particularly:
+A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼
+The children of Israel.
+He is a child of his times.
+Anything derived from or caused by something. quotations ▼
+Poverty, disease, and despair are the children of war.
+(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼
+The child node then stores the actual data of the parent node.", was "A person considered a product of a place or culture, a member of a tribe or culture, regardless of age. quotations ▼
+The children of Israel.
+He is a child of his times.", was "", was "", was "Anything derived from or caused by something. quotations ▼
+Poverty, disease, and despair are the children of war.", was "", was "", was "(computing) A data item, process, or object which has a subservient or derivative role relative to another. quotations ▼
+The child node then stores the actual data of the parent node.", was ""&#13;
+MySerenityJUnitArchetypeG.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)&#13;
+MySerenityJUnitArchetypeG.features.search.SearchByKeywordStoryDdt.searchWikiByKeywordTestDDT(SearchByKeywordStoryDdt.java:47)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>

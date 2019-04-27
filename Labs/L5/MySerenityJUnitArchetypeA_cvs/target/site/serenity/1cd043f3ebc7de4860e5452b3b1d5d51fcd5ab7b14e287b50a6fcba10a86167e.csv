@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2019-04-21T12:26:25.1790479+03:00[Europe/Athens]","0.0","9.2"
+"Search by keyword story","Searching by ambiguious keyword should display the disambiguation page","PENDING","2019-04-21T12:26:34.4347538+03:00[Europe/Athens]","0.0","0.01"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2019-04-21T12:26:34.4917484+03:00[Europe/Athens]","0.0","5.57"
+"Search by keyword story ddt","Search wiki by keyword test DDT","SUCCESS","2019-04-21T12:49:27.8565428+03:00[Europe/Athens]","0.0","21.43"

@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5985067bad5ae1594c665e6b4c132999a0a4f18c529eb66942bf1490ad905c32.html">Search By Keyword Story Ddt</a></span>
+                > <span class="truncate-60"><a
+                    href="e5516e9b8a045051f706fd75b43c2c9fa043d73eef04c080c227616880a2752d.html">Search wiki by keyword test DDT </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-04-2019 12:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search By Keyword Story Ddt </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="b73ab2df35cd94b5317e6d6bfdb3d2310ff26862ef2f19989342051d05f64b83.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Search wiki by keyword test DDT
+                                    <span class="related-issue-title">(#WIKI-1)</span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Is the home page<br>Looks for: &lt;Name&gt;<br>Should see definition: &lt;Definition&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>FAILURE: Assertion error: Expected: a collecti...</span></div>
+                <div class="panel-body">
+                    <a href="pagesource12672857822671292381.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_cde68c22a442a37ae57b4299f9ebbf727f146c91607954d7f1622625bc7b9d00.png" title="Is the home page" width="960"/>
+                <img src="dc0eb6b72629fe26047bd6f039a724823d5f88759a5bcc14e23da41d88d1dec8.png" title="Looks for: love" width="960"/>
+                <img src="scaled_e77a5bbf60128ca47a0e25fab4a1373aaf09e8ebacc39c4394f32cf64d5f9b76.png" title="Enters: love" width="960"/>
+                <img src="scaled_f0a1be2c3e2dfd640e225b3c66709f760d14635996a1a3e2313b6bb45dc24dd1.png" title="Starts search" width="960"/>
+                <img src="8dc169968b927861736714db9c37524a103a4718ddc8d2e725d4ee53639afd98.png" title="Starts search" width="960"/>
+                <img src="dc0eb6b72629fe26047bd6f039a724823d5f88759a5bcc14e23da41d88d1dec8.png" title="Should see definition: Strong affection" width="960"/>
+                <img src="df7e3eef95aa15681c6a1336fd358a7a2e1a94229b655a1d1c51150603e46ff7.png" title="Is the home page" width="960"/>
+                <img src="f4f401201ff8e9d82ce8a72e05ce51434106aa1ba97427d33efc8a714cce1dc4.png" title="Looks for: child" width="960"/>
+                <img src="scaled_a05c9173eb14e1ef9ff39230038692251ce03d95d0f47ab56f8e3c5b283456e9.png" title="Enters: child" width="960"/>
+                <img src="a3c04d0c0d278ead4712d832f56ccba4c50ee68cee178b960566d1375775a3f5.png" title="Starts search" width="960"/>
+                <img src="c27197cca474d62ef55557a6203ba3808f0d3e2e91b667029e412a7c9c626b26.png" title="Starts search" width="960"/>
+                <img src="f4f401201ff8e9d82ce8a72e05ce51434106aa1ba97427d33efc8a714cce1dc4.png" title="Should see definition: A�person�who has not�yet�reached�adulthood, whether�natural�(puberty),�cultural�(initiation), or�legal�(majority)" width="960"/>
+                <img src="df7e3eef95aa15681c6a1336fd358a7a2e1a94229b655a1d1c51150603e46ff7.png" title="Is the home page" width="960"/>
+                <img src="9bc79cc06bd346af9ca0b61e3b12f812f41e58f00fe0ec24e2cd787959f2eb64.png" title="Looks for: happiness" width="960"/>
+                <img src="8d07642648eff653ee82a161c31fbeadfa0bd2f0c3b678c8df9547b0ce5211e9.png" title="Enters: happiness" width="960"/>
+                <img src="scaled_7242dc562d59b5acd4bc74df2029300ab8cd7a7b9e18fe0c2c0f5a34ec6b765d.png" title="Starts search" width="960"/>
+                <img src="9bc79cc06bd346af9ca0b61e3b12f812f41e58f00fe0ec24e2cd787959f2eb64.png" title="Starts search" width="960"/>
+                <img src="9bc79cc06bd346af9ca0b61e3b12f812f41e58f00fe0ec24e2cd787959f2eb64.png" title="Should see definition: The�emotion�of being�happy;�joy.�: <span class='failing-color'>FAILURE</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
